@@ -56,12 +56,12 @@
 }
 .theme-dark {
   --background-primary: #0a0e14;
-  --background-primary-alt: #0d1014;
+  --background-primary-alt: #0d1018;
   --background-secondary: #0d1016;
   --background-secondary-alt: #0a0e14;
   --background-modifier-border: #333;
-  --background-modifier-form-field: #e1af4b;
-  --background-modifier-form-field-highlighted: #e6b450;
+  --background-modifier-form-field: var(--background-primary);
+  --background-modifier-form-field-highlighted: var(--background-primary);
   --background-modifier-box-shadow: #00010a;
   --background-modifier-success: #c2d94c;
   --background-modifier-error: #ff3333;
@@ -70,7 +70,7 @@
   --background-modifier-cover: #0a0e14c7;
   --text-accent: #e1af4b;
   --text-accent-hover: #e6b450;
-  --text-normal: #dcddde;
+  --text-normal: #b3b1ad;
   --text-muted: #999;
   --text-muted-rgb: 153, 153, 153;
   --text-faint: #666;
@@ -78,12 +78,12 @@
   --text-error-hover: #990000;
   --text-highlight-bg: #273747;
   --text-selection: rgba(48, 58, 72, 0.99);
-  --text-on-accent: #dcddde;
+  --text-on-accent: #000000;
   --interactive-normal: #2a2a2a;
   --interactive-hover: #303030;
-  --interactive-accent: #e6b450;
+  --interactive-accent: #e1af4b;
   --interactive-accent-rgb: 72, 54, 153;
-  --interactive-accent-hover: #e1af4b;
+  --interactive-accent-hover: #e6b450;
   --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
   --scrollbar-bg: rgba(255, 255, 255, 0.05);
   --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
@@ -191,7 +191,7 @@ button.mod-cta:hover {
   background-color: var(--interactive-accent-hover);
 }
 button.mod-muted {
-  background-color: var(--background-secondary-alt);
+  background-color: var(--background-secondary-primary);
   color: var(--text-muted);
 }
 button.mod-muted:hover {
