@@ -56,9 +56,9 @@
 }
 .theme-dark {
   --background-primary: #0a0e14;
-  --background-primary-alt: #00010a;
+  --background-primary-alt: #0d1014;
   --background-secondary: #0d1016;
-  --background-secondary-alt: #00010A;
+  --background-secondary-alt: #0a0e14;
   --background-modifier-border: #333;
   --background-modifier-form-field: #e1af4b;
   --background-modifier-form-field-highlighted: #e6b450;
