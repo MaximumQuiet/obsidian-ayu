@@ -1,4 +1,4 @@
-![](media/screenshot.png)
+![](media/screenshot.jpg)
 
 <div align="center"> 
 
